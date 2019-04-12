@@ -32,9 +32,9 @@ python manage.py runserver
 
 You should be able to navigate between the following screens:
 
-![alt text](https://github.com/ghunkins/correlation-one/blob/master/readme_imgs/signup.png)
+![alt text](https://raw.githubusercontent.com/ghunkins/correlation-quiz/master/readme_imgs/signup.png)
 
-![alt text](https://github.com/ghunkins/correlation-one/blob/master/readme_imgs/question.png)
+![alt text](https://raw.githubusercontent.com/ghunkins/correlation-quiz/master/readme_imgs/question.png)
 
 
 ### Progress Report & TODO
