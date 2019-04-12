@@ -1,0 +1,23 @@
+{% extends 'interviews/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block main %}
+<form  method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <p>
+    <b>Instructions:</b>
+    <br>
+    <b>1.</b> Do not use the back button on your browser.
+    <br>
+    <b>2.</b> Do not navigate away from the browser session during the assessment.
+    <br>
+    <b>3.</b> Complete the assessment in one session.
+    <br>
+    <b>4.</b> Have a stable internet connection.
+    <br>
+    <b>5.</b> Please note that it is not permitted to copy and/or publish any of the test content. Correlation One uses software which tracks and reports any copying which occurs during the test.
+    </p>
+    <button  type="submit"  class="btn btn-success btn-block">Start Assessment</button>
+</form>
+{% endblock %}
