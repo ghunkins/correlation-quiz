@@ -6,10 +6,16 @@ Programmer: `Gregory D. Hunkins`
 
 ### Installation & Run
 
+Clone the repository locally.
+
+```
+git clone https://github.com/ghunkins/correlation-quiz.git
+```
+
 Enter the web-app folder.
 
 ```
-cd interview
+cd correlation-quiz/interview
 ```
 Create an environment suitable for running the web-app using `conda` and activate it.
 
